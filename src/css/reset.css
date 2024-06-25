@@ -47,15 +47,6 @@ aside {
   display: block;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-body {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 125%;
-  background-color: #fbfbfb;
-}
 html,
 body {
   height: 100%;
