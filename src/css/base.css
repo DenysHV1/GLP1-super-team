@@ -1,6 +1,6 @@
 html {
-	scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
   body {
 	font-weight: 500;
@@ -11,22 +11,21 @@ html {
   }
 
 .container {
-	max-width: 375px;
-	min-width: 320px;
-	padding: 0 20px;
+  max-width: 375px;
+  min-width: 320px;
+  padding: 0 20px;
 }
 
 @media (min-width: 768px) {
-	.container{
-		max-width: 768px;
-		padding: 0 32px;
-	}
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
 }
 
-
 @media (min-width: 1280px) {
-	.container{
-		max-width: 1280px;
-		padding: 0 65px;
-	}
+  .container {
+    max-width: 1280px;
+    padding: 0 65px;
+  }
 }

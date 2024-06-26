@@ -1,0 +1,84 @@
+<section class="contact">
+  <div class="container">
+    <h2 class="contact-title">Contact Us</h2>
+    <div class="contact-wrapper">
+      <div class="modal">
+        <p class="contact-modal-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="modal-contact">
+          <div class="modal-contact-form">
+            <label class="modal-label visually-hidden" for="name">Name</label>
+            <input
+              class="modal-input"
+              id="name"
+              type="text"
+              placeholder="Name"
+              required
+              size="45"
+              pattern="[A-Za-z]{2,15}"
+              title="Name"
+              required
+            />
+          </div>
+          <div class="modal-contact-form">
+            <label class="modal-label visually-hidden" for="email"
+              >E-mail</label
+            >
+            <input
+              class="modal-input"
+              id="email"
+              type="email"
+              placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              title="Email"
+              required
+            />
+          </div>
+          <div class="modal-contact-form">
+            <label class="modal-label visually-hidden" for="phone"
+              >Phone number</label
+            >
+            <input
+              class="modal-input"
+              id="phone"
+              type="tel"
+              placeholder="+380"
+              pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+              title="Phone"
+              required
+            />
+          </div>
+          <div class="modal-contact-comment">
+            <label for="user-comment" class="modal-label visually-hidden"
+              >Comment</label
+            >
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="modal-text"
+              placeholder="Comment"
+            ></textarea>
+          </div>
+          <button class="modal-button" type="submit">Send</button>
+        </form>
+      </div>
+      <picture class="contact-img">
+        <source
+          srcset="/img/contact_us_dex.jpg 1x, /img/contact_us_dex@2x.jpg 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/img/contact_us_tab.jpg 1x, /img/contact_us_tab@2x.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/img/contact_us_mob.jpg 1x, /img/contact_us_mob@2x.jpg 2x"
+          media="(max-width: 767px)"
+        />
+        <img src="/img/contact_us_mob.jpg" alt="Watch Contact Us" />
+      </picture>
+    </div>
+  </div>
+</section>
