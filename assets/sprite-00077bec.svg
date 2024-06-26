@@ -1,8 +1,8 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 
-<symbol id="icon-menu-05" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.3529" d="M4 11.333h24M4 20.667h24"></path>
+<symbol id="icon-burger" viewBox="0 0 68 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6" d="M4 4.333h60M4 27.667h60"></path>
 </symbol>
 
 <symbol id="icon-x" viewBox="0 0 32 32">
