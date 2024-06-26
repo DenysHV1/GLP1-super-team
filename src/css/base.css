@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 125%;
@@ -13,12 +14,27 @@ body {
   max-width: 375px;
   min-width: 320px;
   padding: 0 20px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
     padding: 0 32px;
+  }
+  h2 {
+    font-size: 48px;
+    line-height: 44px;
+    line-height: 0.92;
   }
 }
 

@@ -1,4 +1,5 @@
 .contact {
+  margin-top: 60px;
 }
 .container {
 }
@@ -94,6 +95,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .contact {
+    margin-top: 80px;
+  }
   .contact-title {
     font-size: 48px;
     line-height: 0.92;
@@ -125,9 +129,18 @@
   .modal-contact-comment {
     margin-bottom: 14px;
   }
+  .modal-button {
+    border-radius: 16px;
+    padding: 17px 63px;
+    width: 160px;
+    height: 52px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .contact {
+    margin-top: 100px;
+  }
   .contact-wrapper {
     flex-direction: row;
     gap: 40px;
