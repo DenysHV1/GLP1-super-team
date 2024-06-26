@@ -8,7 +8,7 @@
     <title>Watch Charm</title>
     
     <script type="module" crossorigin src="/GLP1-super-team/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/GLP1-super-team/assets/index-58f3bff0.css">
+    <link rel="stylesheet" href="/GLP1-super-team/assets/index-e4fdc076.css">
   </head>
   <body>
     
@@ -21,7 +21,91 @@
       
       
       
-	  
+	  <section class="contact">
+  <div class="container">
+    <h2 class="contact-title">Contact Us</h2>
+    <div class="contact-wrapper">
+      <div class="modal">
+        <p class="contact-modal-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="modal-contact">
+          <div class="modal-contact-form">
+            <label class="modal-label visually-hidden" for="name">Name</label>
+            <input
+              class="modal-input"
+              id="name"
+              type="text"
+              placeholder="Name"
+              required
+              size="45"
+              pattern="[A-Za-z]{2,15}"
+              title="Name"
+              required
+            />
+          </div>
+          <div class="modal-contact-form">
+            <label class="modal-label visually-hidden" for="email"
+              >E-mail</label
+            >
+            <input
+              class="modal-input"
+              id="email"
+              type="email"
+              placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              title="Email"
+              required
+            />
+          </div>
+          <div class="modal-contact-form">
+            <label class="modal-label visually-hidden" for="phone"
+              >Phone number</label
+            >
+            <input
+              class="modal-input"
+              id="phone"
+              type="tel"
+              placeholder="+380"
+              pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+              title="Phone"
+              required
+            />
+          </div>
+          <div class="modal-contact-comment">
+            <label for="user-comment" class="modal-label visually-hidden"
+              >Comment</label
+            >
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="modal-text"
+              placeholder="Comment"
+            ></textarea>
+          </div>
+          <button class="modal-button" type="submit">Send</button>
+        </form>
+      </div>
+      <picture class="contact-img">
+        <source
+          srcset="/GLP1-super-team/assets/contact_us_dex-c205d0f4.jpg 1x, /GLP1-super-team/assets/contact_us_dex@2x-9b72abeb.jpg 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/GLP1-super-team/assets/contact_us_tab-fdf9a8e0.jpg 1x, /GLP1-super-team/assets/contact_us_tab@2x-1b4e7498.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/GLP1-super-team/assets/contact_us_mob-3498b795.jpg 1x, /GLP1-super-team/assets/contact_us_mob@2x-32bb30d8.jpg 2x"
+          media="(max-width: 767px)"
+        />
+        <img src="/GLP1-super-team/assets/contact_us_mob-3498b795.jpg" alt="Watch Contact Us" />
+      </picture>
+    </div>
+  </div>
+</section>
+
     </main>
     
 
