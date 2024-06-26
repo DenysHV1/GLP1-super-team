@@ -3,6 +3,7 @@
   width: 100%;
   height: auto;
   padding: 27.5px 0 27.5px;
+  border-bottom: 1px solid rgba(12, 12, 12, 0.1);
 }
 
 .header-inner {
@@ -11,8 +12,9 @@
   align-items: center;
 }
 
-.header-social__svg {
-  background-color: #0c0c0c;
+.burger-menu {
+  stroke-width: 2.5px;
+  stroke: #0c0c0c;
 }
 
 .header-nav {
@@ -41,10 +43,9 @@
   height: 100%;
   max-width: 200px;
   background-image: url(../img/bg-mobile.jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-background-color: rgba(12, 12, 12, 0.92);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   z-index: 999;
   transition: transform 350ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateX(100%);
@@ -68,6 +69,7 @@ background-color: rgba(12, 12, 12, 0.92);
   align-items: center;
   margin-top: 20px;
   margin-right: 20px;
+  stroke: #fbfbfb;
 }
 
 .media-nav-list {
