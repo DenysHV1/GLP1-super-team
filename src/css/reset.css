@@ -15,7 +15,6 @@
 }
 a {
   display: inline-block;
-  color: currentColor;
   text-decoration: none;
 }
 p,
@@ -81,7 +80,6 @@ button::-moz-focus-inner {
 a,
 a:visited {
   text-decoration: none;
-  color: inherit;
 }
 a:hover {
   text-decoration: none;
