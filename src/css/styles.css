@@ -7,7 +7,6 @@
 @import url('./reset.css');
 @import url('../fonts/fonts.css');
 @import url('./base.css');
-@import url('./media.css');
 
 
 @import url('./header.css');
@@ -19,7 +18,6 @@
 @import url('./sale.css');
 @import url('./reviews.css');
 @import url('./contact-us.css');
-
 
 @import url('./footer.css');
 
