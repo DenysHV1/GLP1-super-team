@@ -93,3 +93,15 @@
     width: 370px;
   }
 }
+
+@media screen and (max-width: 766px) {
+  .hidden-element-mod {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1279px) {
+  .hidden-element-tab {
+    display: none;
+  }
+}
