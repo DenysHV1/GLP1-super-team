@@ -1,7 +1,6 @@
 /* //header main style/// */
 .watch-charm {
   width: 100%;
-  height: auto;
   padding: 27.5px 0 27.5px;
   border-bottom: 1px solid rgba(12, 12, 12, 0.1);
 }
@@ -33,8 +32,7 @@
   color: #0c0c0c;
 }
 
-/* //header main style/// */
-
+/* #region  media-menu*/
 .media-menu {
   position: fixed;
   right: 0;
@@ -72,8 +70,16 @@
   margin-top: 20px;
   margin-right: 20px;
   stroke: #fbfbfb;
+  opacity: 1;
+  transition: opacity 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.close-menu:hover {
+	opacity: 0.8;
+}
+
+
+/* #region  media-nav*/
 .media-nav-list {
   display: flex;
   flex-direction: column;
@@ -87,17 +93,26 @@
   padding-bottom: 10px;
 }
 
-.media-after:hover::after {
+.media-after::after {
   content: '';
   position: absolute;
   width: 9px;
   height: 9px;
-  background-color: #3350e9;
+  background-color: transparent;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 50%;
+  transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.media-after:hover::after {
+	background-color: #3350e9;
+}
+
+.media-after:focus::after {
+	background-color:#3350E9;
+  }
 
 .media-menu-link {
   font-family: 'Gilroy', sans-serif;
@@ -107,7 +122,9 @@
   text-align: center;
   color: #fbfbfb;
 }
+/* #endregion  media-nav*/
 
+/* #region  media-socials*/
 .media-socials-list {
   display: flex;
   align-items: center;
@@ -125,7 +142,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0.8;
+  transition: opacity 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.media-socials-link:hover {
+	opacity: 1;
+  }
+  
+  .media-socials-link:focus {
+	opacity: 1;
+  }
 
 .media-social__svg {
   fill: #fbfbfb;
@@ -140,6 +167,10 @@
 .media-social__svg:focus {
   opacity: 1;
 }
+
+/* #endregion  media-socials*/
+
+/* #endregion  media-menu*/
 
 @media (min-width: 768px) {
   .media-menu {
@@ -176,7 +207,7 @@
 
   .header-socials-list {
     display: flex;
-    gap: 40px;
+    gap: 10px;
   }
 
   .nav-list-item {
@@ -198,11 +229,20 @@
     position: absolute;
     width: 9px;
     height: 9px;
-    background-color: #3350e9;
+    background-color: transparent;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 50%;
+	transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .nav-list_main-link:hover::after {
+	background-color:#3350E9;
+  }
+
+  .nav-list_main-link:focus::after {
+	background-color:#3350E9;
   }
 
   .socials-list-item {
