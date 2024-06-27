@@ -56,14 +56,6 @@ body {
 }
 
 input,
-textarea,
-select {
-  -webkit-box-shadow: 0 0 0 1000px inset #fff;
-  box-shadow: 0 0 0 1000px inset #fff;
-  background-color: transparent;
-  
-}
-input,
 button,
 textarea {
   font-family: inherit;
