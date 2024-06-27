@@ -1,0 +1,72 @@
+.advertis {
+  margin-top: 60px;
+}
+
+.advertis-container {
+  position: relative;
+  background-color: #0c0c0c;
+  padding: 60px 28px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-rezolution: 2dppx),
+  (min-rezolution: 192dpi) {
+  .advertis-container {
+    background-image: url(../img/adv-mob@2x.png);
+  }
+}
+
+.advertis-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/adv-mob.png);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.advertis-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 28px;
+  position: relative;
+  z-index: 2;
+}
+
+.advertis-text-gray {
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.advertis-btn {
+  width: 160px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  position: relative;
+  z-index: 2;
+}
+
+.advertis-btn:hover {
+  background: #fbfbfb;
+  color: #0c0c0c;
+}
+
+.advertis-btn:focus {
+  background: #fbfbfb;
+  color: #0c0c0c;
+}
