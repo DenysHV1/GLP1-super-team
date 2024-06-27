@@ -224,7 +224,7 @@
     padding-bottom: 10px;
   }
 
-  .nav-list_main-link:hover::after {
+  .nav-list_main-link::after {
     content: '';
     position: absolute;
     width: 9px;
