@@ -81,7 +81,7 @@ button::-moz-focus-inner {
 a,
 a:visited {
   text-decoration: none;
-  color: inherit;
+  /* color: initial; */
 }
 a:hover {
   text-decoration: none;

@@ -17,7 +17,6 @@
   font-size: 16px;
   letter-spacing: -0.02em;
   color: #fbfbfb;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 1;
 }
 .logo:hover,
@@ -34,11 +33,13 @@
   align-items: center;
   justify-content: center;
   border: 1px solid rgba(251, 251, 251, 0.1);
+  transition: border-color 350ms ease;
   border-radius: 10px;
   padding: 8px;
   width: 34px;
   height: 34px;
 }
+
 .social-nav-link {
   display: flex;
   align-items: center;
@@ -47,20 +48,29 @@
 .social-nav-icon {
   fill: #fbfbfb;
   opacity: 0.8;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-nav-item .social-nav-icon:focus,
-.social-nav-item .social-nav-icon:hover {
+.social-nav-item:hover,
+.social-nav-item:focus {
+  border-color: #fbfbfb;
+}
+.social-nav-item:hover .social-nav-icon,
+.social-nav-item:focus .social-nav-icon {
   fill: #fbfbfb;
   opacity: 1;
 }
 
 .footer-tel {
   border: 1px solid rgba(251, 251, 251, 0.2);
+  transition: border-color 350ms ease;
   border-radius: 16px;
   padding: 14px 20px;
   max-width: fit-content;
   max-height: 48px;
+}
+.footer-tel:hover,
+.footer-tel:focus {
+  border-color: #fbfbfb;
 }
 .footer-tel-link {
   font-size: 12px;
@@ -69,10 +79,10 @@
   text-align: center;
   color: #fbfbfb;
   opacity: 1;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-tel-link:hover,
-.footer-tel-link:focus {
+.footer-tel:hover .footer-tel-link,
+.footer-tel:focus .footer-tel-link {
   color: #fbfbfb;
   opacity: 0.8;
 }
@@ -108,7 +118,7 @@
   text-align: center;
   color: #fbfbfb;
   opacity: 1;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-nav-link:hover,
 .footer-nav-link:focus {
