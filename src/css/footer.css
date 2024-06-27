@@ -3,6 +3,7 @@
   padding: 40px 28px 28px 28px;
   max-width: 335px;
   background-color: #0c0c0c;
+  margin-top: 60px;
 }
 .social-container {
   margin-bottom: 40px;
@@ -119,7 +120,7 @@
   text-align: center;
   color: #fbfbfb;
   opacity: 1;
-  transition: fill 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-nav-link:hover,
 .footer-nav-link:focus {
@@ -154,8 +155,12 @@
   color: rgba(251, 251, 251, 0.5);
   margin-right: 20px;
 }
-.footer-bottom-item:hover,
-.footer-bottom-item:focus {
+.footer-bottom-link {
+  color: rgba(251, 251, 251, 0.5);
+  transition: color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-bottom-link:hover,
+.footer-bottom-link:focus {
   color: rgba(251, 251, 251, 1);
 }
 
@@ -163,6 +168,7 @@
   .footer-container {
     max-width: 704px;
     padding: 40px 40px 28px 40px;
+    margin-top: 80px;
   }
   .social-container {
     margin-bottom: 86px;
@@ -219,6 +225,7 @@
 @media (min-width: 1280px) {
   .footer-container {
     max-width: 1216px;
+    margin-top: 100px;
   }
   .social-container {
     margin-bottom: 0;
