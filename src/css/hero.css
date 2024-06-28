@@ -45,7 +45,9 @@
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #0c0c0c;
-  white-space: nowrap;
+}
+.scroll-wrapper {
+  min-width: 72px;
 }
 .photo-container {
   display: flex;
