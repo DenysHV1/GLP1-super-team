@@ -29,7 +29,6 @@
   color: rgba(12, 12, 12, 0.7);
   margin-bottom: 28px;
 }
-
 .hero-photos-scroll {
   display: flex;
   flex-direction: row;
@@ -61,7 +60,9 @@
 .hero-img-3 {
   margin-left: -12px;
 }
-
+.hero-watch-img {
+  border-radius: 30%;
+}
 @media (min-width: 768px) {
   .hero {
     margin-top: 80px;
@@ -102,6 +103,9 @@
   .hero-img-3 {
     margin-left: -15px;
   }
+}
+.hero-watch-img {
+  border-radius: 50%;
 }
 
 @media (min-width: 1280px) {
