@@ -59,6 +59,7 @@
   border-radius: 16px;
   position: relative;
   z-index: 2;
+  transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .advertis-btn:hover {
