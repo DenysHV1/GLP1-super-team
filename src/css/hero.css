@@ -1,6 +1,13 @@
 .hero {
   margin-top: 60px;
   margin-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.hero-content-wi {
+  display: flex;
+  gap: 28px;
+  flex-direction: column;
 }
 .hero-title {
   font-weight: 600;
@@ -22,6 +29,14 @@
   color: rgba(12, 12, 12, 0.7);
   margin-bottom: 28px;
 }
+
+.hero-photos-scroll {
+  display: flex;
+  flex-direction: row;
+  gap: 155px;
+  align-items: flex-end;
+  margin-bottom: 28px;
+}
 .hero-scroll {
   font-weight: 500;
   font-size: 14px;
@@ -31,38 +46,38 @@
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #0c0c0c;
-  margin-right: auto;
 }
 .photo-container {
-  position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.photo-container picture {
-  position: absolute;
-  border-radius: 50%;
-}
-.hero1-img {
-  left: 0;
-}
-.hero2-img {
-  left: 24px;
-  z-index: 2;
-}
-.hero3-img {
-  left: 64px;
-  z-index: 3;
-}
-.hero-photos-scroll {
-  /* display: flex;
   flex-direction: row;
-  justify-content: space-between; */
 }
+.hero-img {
+  border-radius: 50%;
+  overflow: hidden;
+}
+.hero-img-2 {
+  margin-left: -12px;
+}
+.hero-img-3 {
+  margin-left: -12px;
+}
+
 @media (min-width: 768px) {
   .hero {
     margin-top: 80px;
     margin-bottom: 80px;
+  }
+  .hero-content-wi {
+    gap: 11px;
+    flex-direction: row;
+  }
+  .hero-photos-scroll {
+    flex-direction: column;
+    gap: 180px;
+    margin-bottom: 40px;
+  }
+  .hero-title {
+    min-width: 557px;
   }
   .hero-title {
     font-size: 70px;
@@ -81,11 +96,11 @@
     line-height: 20px;
     line-height: 1;
   }
-  .hero2-img {
-    left: 41px;
+  .hero-img-2 {
+    margin-left: -15px;
   }
-  .hero3-img {
-    left: 80px;
+  .hero-img-3 {
+    margin-left: -15px;
   }
 }
 
@@ -93,6 +108,12 @@
   .hero {
     margin-top: 100px;
     margin-bottom: 100px;
+  }
+  .hero-content-wi {
+    gap: 407px;
+  }
+  .hero-photos-scroll {
+    gap: 189px;
   }
   .hero-title {
     font-size: 72px;
@@ -102,10 +123,10 @@
   }
   .hero-text {
   }
-  .hero2-img {
-    left: 44px;
+  .hero-img-2 {
+    margin-left: -16px;
   }
-  .hero3-img {
-    left: 86px;
+  .hero-img-3 {
+    margin-left: -16px;
   }
 }
