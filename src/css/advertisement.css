@@ -47,7 +47,7 @@
   color: rgba(251, 251, 251, 0.5);
 }
 
-.advertis-btn {
+.advertis-anchor {
   width: 160px;
   height: 48px;
   font-weight: 500;
@@ -60,14 +60,16 @@
   position: relative;
   z-index: 2;
   transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 15px 43px 15px 44px;
+  white-space: nowrap;
 }
 
-.advertis-btn:hover {
+.advertis-anchor:hover {
   background: #fbfbfb;
   color: #0c0c0c;
 }
 
-.advertis-btn:focus {
+.advertis-anchor:focus {
   background: #fbfbfb;
   color: #0c0c0c;
 }
@@ -126,7 +128,7 @@
     margin-bottom: 0;
   }
 
-  .advertis-btn {
+  .advertis-anchor {
     margin-left: auto;
   }
 }
