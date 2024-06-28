@@ -1,0 +1,22 @@
+ul {
+  list-style: none;
+}
+
+.reviews {
+}
+
+.reviews-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 44px;
+  line-height: 0.91667;
+  letter-spacing: -0.02em;
+  color: red;
+}
+
+.reviews-list {
+  border-radius: 30px;
+  padding: 32px 36px;
+  width: 370px;
+  height: 272px;
+}
