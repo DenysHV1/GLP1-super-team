@@ -51,8 +51,10 @@
 .about-btn:hover {
   background-color: #1f3cd4;
 }
-.about-us-img {
-  border-radius: 30%;
+
+.about-us-img-container {
+  overflow: hidden;
+  border-radius: 30px;
 }
 
 @media (min-width: 768px) {
@@ -61,7 +63,6 @@
   }
 
   .abuut-inner {
-    flex-direction: row;
     gap: 40px;
   }
 
@@ -80,6 +81,10 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
+  }
+
+  .about-us-img-container {
+    border-radius: 50px;
   }
 }
 
