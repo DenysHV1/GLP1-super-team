@@ -28,11 +28,11 @@
   padding: 32px 36px;
 }
 
-.reviews-img {
-  border-radius: 100%;
-  stroke-width: 2px;
-  stroke: #fbfbfb;
-  margin-bottom: 24px;
+.reviews-box-img{
+	overflow: hidden;
+	margin-bottom: 24px;
+	border-radius: 100%;
+	stroke-width: 2px;
 }
 
 .reviews-name {
