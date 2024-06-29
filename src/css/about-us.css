@@ -1,6 +1,13 @@
 .about-us {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.abuut-inner {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
 }
 .content-about-us {
@@ -9,27 +16,29 @@
   border-radius: 30px;
   padding: 40px 20px;
 }
+
 .about-title {
   margin-bottom: 28px;
 }
+
 .about-list {
   display: flex;
   flex-direction: column;
   gap: 20px;
   margin-bottom: 40px;
 }
+
 .about-item {
   font-weight: 500;
   font-size: 14px;
-  line-height: 18px;
   line-height: 1.28;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
 }
+
 .about-btn {
   min-width: 160px;
   font-size: 14px;
-  line-height: 18px;
   line-height: 1.28;
   text-align: center;
   color: #fbfbfb;
@@ -45,8 +54,14 @@
 
 @media (min-width: 768px) {
   .about-us {
+    margin-top: 80px;
+  }
+
+  .abuut-inner {
+    flex-direction: row;
     gap: 40px;
   }
+
   .content-about-us {
     max-width: 704px;
     border-radius: 50px;
@@ -61,15 +76,16 @@
   .about-item {
     font-weight: 500;
     font-size: 16px;
-    line-height: 20px;
     line-height: 1.25;
-  }
-  .about-btn {
   }
 }
 
 @media (min-width: 1280px) {
   .about-us {
+    margin-top: 100px;
+  }
+
+  .abuut-inner {
     flex-direction: row;
   }
   .content-about-us {
