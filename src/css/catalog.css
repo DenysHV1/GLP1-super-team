@@ -21,13 +21,14 @@
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   background: #f3f3f3;
+  padding: 24px 28px;
 }
+
 .catalog-images {
   margin: 0 auto;
 }
 .catalog-card {
   margin: 0 auto;
-  padding: 10px 28px 24px;
 }
 
 .catalog-subtitle {
@@ -37,6 +38,7 @@
   line-height: 1.25;
   letter-spacing: -0.02em;
   color: #0c0c0c;
+  margin-top: 10px;
   margin-bottom: 8px;
 }
 .catalog-item-text {
@@ -93,6 +95,7 @@
 
   .catalog-item {
     width: calc((100% - 16px) / 2);
+    padding: 24px 32px;
   }
 
   .catalog-subtitle {
