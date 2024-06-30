@@ -163,7 +163,7 @@
     line-height: 129%;
   }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
   .watch-picture {
     flex-direction: row;
   }
