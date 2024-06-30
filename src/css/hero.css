@@ -74,8 +74,9 @@
   margin-left: -12px;
 }
 
-.hero-watch-img {
-  border-radius: 50%;
+.hero-main-picture {
+  border-radius: 30px;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
@@ -117,6 +118,10 @@
 
   .hero-texts {
     margin-bottom: 40px;
+  }
+
+  .hero-main-picture {
+    border-radius: 50px;
   }
 }
 

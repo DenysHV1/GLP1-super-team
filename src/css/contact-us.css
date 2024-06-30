@@ -102,8 +102,9 @@
   background-color: #1f3cd4;
 }
 
-.contact-img {
+.contact-main-picture {
   border-radius: 30px;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
@@ -164,7 +165,7 @@
     height: 52px;
   }
 
-  .contact-img {
+  .contact-main-picture {
     border-radius: 50px;
   }
 }
@@ -187,5 +188,9 @@
 
   .contact-img {
     flex: 1;
+  }
+
+  .contact-main-picture {
+    height: 100%;
   }
 }

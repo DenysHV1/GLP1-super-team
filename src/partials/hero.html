@@ -82,19 +82,27 @@
       </div>
     </div>
   </div>
-  <picture class="hero-watch-img">
-    <source
-      srcset="/img/hero-watch-min.jpg 1x, /img/hero-watch-2x-min.jpg 2x"
-      media="(min-width: 1280px)"
-    />
-    <source
-      srcset="/img/hero-watch-tab-min.jpg 1x, /img/hero-watch-tab-2x-min.jpg 2x"
-      media="(min-width: 768px)"
-    />
-    <source
-      srcset="/img/hero-watch-mob-min.jpg 1x, /img/hero-watch-mob-2x-min.jpg 2x"
-      media="(min-width: 320px)"
-    />
-    <img src="/img/hero-watch-min.jpg" alt="premium watch" width="1150" />
-  </picture>
+  <div class="hero-main-picture">
+    <picture class="hero-watch-img">
+      <source
+        srcset="/img/hero-watch-min.jpg 1x, /img/hero-watch-2x-min.jpg 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          /img/hero-watch-tab-min.jpg    1x,
+          /img/hero-watch-tab-2x-min.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          /img/hero-watch-mob-min.jpg    1x,
+          /img/hero-watch-mob-2x-min.jpg 2x
+        "
+        media="(min-width: 320px)"
+      />
+      <img src="/img/hero-watch-min.jpg" alt="premium watch" width="1150" />
+    </picture>
+  </div>
 </section>
