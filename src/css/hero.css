@@ -10,12 +10,13 @@
   flex-direction: column;
 }
 .hero-title {
-	font-weight: 600;
-	font-size: 40px;
-	line-height: 95%;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 95%;
   letter-spacing: -0.02em;
   color: #0c0c0c;
   margin-bottom: 20px;
+  max-width: 335px;
 }
 .hero-title-colored {
   color: #3350e9;
@@ -30,7 +31,7 @@
 .hero-photos-scroll {
   display: flex;
   flex-direction: row;
-  gap: 155px;
+  justify-content: space-between;
   align-items: flex-end;
   margin-bottom: 28px;
 }
@@ -46,14 +47,14 @@
 }
 
 .hero-scroll:hover {
-	color: #3350e9;
-	text-decoration: underline;
-  }
+  color: #3350e9;
+  text-decoration: underline;
+}
 
-  .hero-scroll:focus {
-	color: #3350e9;
-	text-decoration: underline;
-  }
+.hero-scroll:focus {
+  color: #3350e9;
+  text-decoration: underline;
+}
 
 .scroll-wrapper {
   min-width: 72px;
@@ -72,10 +73,12 @@
 .hero-img-3 {
   margin-left: -12px;
 }
+
 .hero-watch-img {
-  border-radius: 30%;
+  border-radius: 50%;
 }
-@media (min-width: 768px) {
+
+@media screen and (min-width: 768px) {
   .hero {
     margin-top: 80px;
     margin-bottom: 80px;
@@ -86,19 +89,15 @@
   }
   .hero-photos-scroll {
     flex-direction: column;
-    gap: 180px;
+    justify-content: space-between;
+    /* gap: 180px; */
     margin-bottom: 40px;
   }
-  .hero-title {
-    max-width: 557px;
-	font-size: 70px;
-line-height: 86%;
-  }
+
   .hero-title {
     font-size: 70px;
-    line-height: 60px;
     line-height: 0.86;
-    max-width: 557px;
+    max-width: 577px;
   }
   .hero-text {
     font-size: 16px;
@@ -115,12 +114,13 @@ line-height: 86%;
   .hero-img-3 {
     margin-left: -15px;
   }
-}
-.hero-watch-img {
-  border-radius: 50%;
+
+  .hero-texts {
+    margin-bottom: 40px;
+  }
 }
 
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .hero {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -128,12 +128,10 @@ line-height: 86%;
   .hero-content-wi {
     gap: 407px;
   }
-  .hero-photos-scroll {
-    gap: 189px;
-  }
+
   .hero-title {
-	font-size: 72px;
-	line-height: 87%;
+    font-size: 72px;
+    line-height: 87%;
     max-width: 597px;
   }
   .hero-text {

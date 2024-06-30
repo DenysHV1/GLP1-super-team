@@ -145,6 +145,14 @@
     color: #0c0c0c;
   }
 
+  .modal-input {
+    height: 52px;
+  }
+
+  .modal-text {
+    height: 90px;
+  }
+
   .modal-contact-comment {
     margin-bottom: 14px;
   }

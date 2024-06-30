@@ -16,23 +16,23 @@
   height: 34px;
 }
 
-.burger-menu_svg{
-	width: 28px;
-	height: 14px;
-	stroke-width: 2.5px;
-	stroke: #0c0c0c;
-	transition: opacity 350ms cubic-bezier(0.4, 0, 0.2, 1);
-	transition: transform 350ms cubic-bezier(0.4, 0, 0.2, 1);
+.burger-menu_svg {
+  width: 28px;
+  height: 14px;
+  stroke-width: 2.5px;
+  stroke: #0c0c0c;
+  transition: opacity 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.burger-menu:hover .burger-menu_svg{
-	opacity: 0.8;
-	transform: scale(1.1);
+.burger-menu:hover .burger-menu_svg {
+  opacity: 0.8;
+  transform: scale(1.1);
 }
 
-.burger-menu:focus .burger-menu_svg{
-	opacity: 0.8;
-	transform: scale(1.1);
+.burger-menu:focus .burger-menu_svg {
+  opacity: 0.8;
+  transform: scale(1.1);
 }
 
 .header-nav {
@@ -73,7 +73,7 @@
   background-image: url(../img/bg-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size:cover;
+  background-size: cover;
   background-color: rgba(12, 12, 12, 0.92);
   z-index: 999;
   transition: transform 350ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -81,10 +81,10 @@
 }
 
 @media (min-resolution: 192dpi) {
-	.media-menu {
-		background-image: url(../img/bg-mobile-x2.jpg);
-	}
+  .media-menu {
+    background-image: url(../img/bg-mobile-x2.jpg);
   }
+}
 
 .media-menu.is-open-menu {
   transform: translateX(0%);
@@ -109,8 +109,8 @@
 }
 
 .close-menu_svg {
-	width: 34px;
-	height: 34px;
+  width: 34px;
+  height: 34px;
 }
 
 .close-menu:hover {
@@ -193,8 +193,8 @@
 }
 
 .media-social__svg {
-	width: 18px;
-	height: 18px;
+  width: 18px;
+  height: 18px;
   fill: #fbfbfb;
   opacity: 0.8;
   transition: opacity 350ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -222,35 +222,33 @@
   }
 
   .burger-menu {
-	width: 40px;
-	height: 40px;
+    width: 40px;
+    height: 40px;
   }
 
   .header-social__svg {
-	width: 34px;
-	height: 16px;
-}
-
-.media-nav-list {
-	gap: 32px;
+    width: 34px;
+    height: 16px;
   }
 
-  .media-social__svg{
-	width: 20px;
-	height: 20px;
+  .media-nav-list {
+    gap: 32px;
+  }
+
+  .media-social__svg {
+    width: 20px;
+    height: 20px;
   }
 
   .media-socials-link {
-	width: 36px;
-	height: 36px;
+    width: 36px;
+    height: 36px;
   }
 
   .close-menu_svg {
-	width: 40px;
-	height: 40px;
-}
-
-
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -358,8 +356,8 @@
     fill: #0c0c0c;
     transition: opacity 350ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: fill 350ms cubic-bezier(0.4, 0, 0.2, 1);
-	width: 20px;
-	height: 20px;
+    width: 20px;
+    height: 20px;
   }
 
   .nav-list_link {

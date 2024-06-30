@@ -2,8 +2,6 @@
   margin-top: 60px;
 }
 
-.catalog-container {
-}
 .catalog-title {
   text-transform: capitalize;
   margin-bottom: 24px;
@@ -80,7 +78,7 @@
   background-color: #1f3cd4;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .catalog {
     margin-top: 80px;
   }

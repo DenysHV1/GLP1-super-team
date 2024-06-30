@@ -1,6 +1,5 @@
 .reviews {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin-top: 60px;
 }
 
 .reviews-title {
@@ -28,11 +27,11 @@
   padding: 32px 36px;
 }
 
-.reviews-box-img{
-	overflow: hidden;
-	margin-bottom: 24px;
-	border-radius: 100%;
-	stroke-width: 2px;
+.reviews-box-img {
+  overflow: hidden;
+  margin-bottom: 24px;
+  border-radius: 100%;
+  stroke-width: 2px;
 }
 
 .reviews-name {
@@ -55,6 +54,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .reviews {
+    margin-top: 80px;
+  }
+
   .reviews-title {
     font-size: 48px;
     line-height: 44px;
@@ -80,6 +83,9 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .reviews {
+    margin-top: 100px;
+  }
   .reviews-ul {
     gap: 20px;
   }

@@ -3,7 +3,7 @@
   margin-top: 60px;
 }
 
-.abuut-inner {
+.about-inner {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,12 +57,12 @@
   border-radius: 30px;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .about-us {
     margin-top: 80px;
   }
 
-  .abuut-inner {
+  .about-inner {
     gap: 40px;
   }
 
@@ -88,12 +88,12 @@
   }
 }
 
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .about-us {
     margin-top: 100px;
   }
 
-  .abuut-inner {
+  .about-inner {
     flex-direction: row;
   }
   .content-about-us {
