@@ -42,6 +42,12 @@
   letter-spacing: -0.02em;
   color: #fbfbfb;
 }
+.footer-logo:hover,
+.footer-logo:focus {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
 .social-nav-item {
   display: flex;
   align-items: center;
@@ -75,6 +81,7 @@
 .social-nav-item:focus .social-nav-icon {
   fill: #fbfbfb;
   opacity: 1;
+  transform: scale(1.1);
 }
 .footer-phone-number {
   border: 1px solid rgba(251, 251, 251, 0.2);
@@ -87,11 +94,17 @@
   align-items: center;
   justify-content: center;
 }
-.footer-phone-number:hover,
-.footer-phone-number:focus {
-  border-color: #fbfbfb;
-}
+
 .footer_number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  transition: border-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 16px;
+  height: 44px;
+  width: 152px;
+}
   white-space: nowrap;
   font-size: 12px;
   line-height: 1.3;
@@ -101,10 +114,11 @@
   opacity: 1;
   transition: fill 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-phone-number:hover .footer_number,
-.footer-phone-number:focus .footer_number {
+.footer_number:hover,
+.footer_number:focus {
   color: #fbfbfb;
   opacity: 0.8;
+  transform: scale(1.1);
 }
 .footer-main_text {
   font-weight: 600;
@@ -151,6 +165,7 @@
 .footer-nav-link:focus {
   color: #fbfbfb;
   opacity: 0.8;
+  transform: scale(1.1);
 }
 
 .footer-middle_text {
@@ -187,6 +202,7 @@
 .footer-bottom-link:hover,
 .footer-bottom-link:focus {
   color: rgba(251, 251, 251, 1);
+  transform: scale(1.1);
 }
 @media screen and (min-width: 768px) {
   .footer {
