@@ -39,3 +39,9 @@ buttonItemMenu4.addEventListener('click', () => {
 buttonItemMenu5.addEventListener('click', () => {
   mediaMenu.classList.remove('is-open-menu');
 });
+
+const scrollUp = document.querySelector('.scroll-up');
+
+window.addEventListener('scroll', function () {
+  scrollUp.classList.toggle('is-open-scroll', window.scrollY > 500);
+});
