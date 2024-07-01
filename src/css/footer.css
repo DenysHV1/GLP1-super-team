@@ -49,9 +49,6 @@
   border: 1px solid rgba(251, 251, 251, 0.1);
   transition: border-color 350ms ease;
   border-radius: 10px;
-  padding: 8px;
-  width: 34px;
-  height: 34px;
 }
 .footer-socials {
   display: flex;
@@ -62,6 +59,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 34px;
+  height: 34px;
 }
 .social-nav-icon {
   fill: #fbfbfb;
@@ -263,7 +262,7 @@
     line-height: 1.29;
   }
 
-  .social-nav-item {
+  .social-nav-link {
     width: 36px;
     height: 36px;
   }
