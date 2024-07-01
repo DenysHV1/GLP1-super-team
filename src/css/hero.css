@@ -1,0 +1,149 @@
+.hero {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.hero-content-wi {
+  display: flex;
+  gap: 28px;
+  flex-direction: column;
+}
+.hero-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 95%;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 20px;
+  max-width: 335px;
+}
+.hero-title-colored {
+  color: #3350e9;
+}
+.hero-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  margin-bottom: 28px;
+}
+.hero-photos-scroll {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 28px;
+}
+.hero-scroll {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #0c0c0c;
+  transition: color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-scroll:hover {
+  color: #3350e9;
+  text-decoration: underline;
+}
+
+.hero-scroll:focus {
+  color: #3350e9;
+  text-decoration: underline;
+}
+
+.scroll-wrapper {
+  min-width: 72px;
+}
+.photo-container {
+  display: flex;
+  flex-direction: row;
+}
+.hero-img {
+  border-radius: 50%;
+  overflow: hidden;
+}
+.hero-img-2 {
+  margin-left: -12px;
+}
+.hero-img-3 {
+  margin-left: -12px;
+}
+
+.hero-main-picture {
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  .hero-content-wi {
+    gap: 11px;
+    flex-direction: row;
+  }
+  .hero-photos-scroll {
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 180px; */
+    margin-bottom: 40px;
+  }
+
+  .hero-title {
+    font-size: 70px;
+    line-height: 0.86;
+    max-width: 577px;
+  }
+  .hero-text {
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 480px;
+  }
+  .hero-scroll {
+    font-size: 20px;
+    line-height: 1;
+  }
+  .hero-img-2 {
+    margin-left: -15px;
+  }
+  .hero-img-3 {
+    margin-left: -15px;
+  }
+
+  .hero-texts {
+    margin-bottom: 40px;
+  }
+
+  .hero-main-picture {
+    border-radius: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .hero-content-wi {
+    gap: 407px;
+  }
+
+  .hero-title {
+    font-size: 72px;
+    line-height: 87%;
+    max-width: 597px;
+  }
+
+  .hero-img-2 {
+    margin-left: -16px;
+  }
+  .hero-img-3 {
+    margin-left: -16px;
+  }
+}

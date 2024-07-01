@@ -15,7 +15,6 @@
 }
 a {
   display: inline-block;
-  color: currentColor;
   text-decoration: none;
 }
 p,
@@ -54,13 +53,6 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-}
-
-input,
-textarea,
-select {
-  -webkit-box-shadow: 0 0 0 1000px inset #fff;
-  box-shadow: 0 0 0 1000px inset #fff;
 }
 input,
 button,

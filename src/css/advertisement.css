@@ -1,0 +1,134 @@
+.advertis {
+  margin-top: 60px;
+}
+
+.advertis-container {
+  position: relative;
+  background-color: #0c0c0c;
+  padding: 60px 28px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.advertis-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img/adv-mob.png);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-rezolution: 2dppx),
+  (min-rezolution: 192dpi) {
+  .advertis-container::before {
+    background-image: url(/img/adv-mob@2x.png);
+  }
+}
+
+.advertis-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 28px;
+  position: relative;
+  z-index: 2;
+}
+
+.advertis-text-gray {
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.advertis-anchor {
+  width: 160px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  position: relative;
+  z-index: 2;
+  transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 15px 43px 15px 44px;
+  white-space: nowrap;
+}
+
+.advertis-anchor:hover {
+  background: #fbfbfb;
+  color: #0c0c0c;
+}
+
+.advertis-anchor:focus {
+  background: #fbfbfb;
+  color: #0c0c0c;
+}
+
+@media screen and (min-width: 768px) {
+  .advertis {
+    margin-top: 80px;
+  }
+
+  .advertis-container {
+    padding: 80px 64px;
+  }
+
+  .advertis-container::before {
+    background-image: url(/img/adv-tab.png);
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-rezolution: 2dppx),
+    (min-rezolution: 192dpi) {
+    .advertis-container::before {
+      background-image: url(/img/adv-tab@2x.png);
+    }
+  }
+
+  .advertis-text {
+    font-size: 48px;
+    line-height: 0.92;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advertis {
+    margin-top: 100px;
+  }
+
+  .advertis-container {
+    padding: 83px 80px;
+    display: flex;
+  }
+
+  .advertis-container::before {
+    background-image: url(../img/adv-dex.png);
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-rezolution: 2dppx),
+    (min-rezolution: 192dpi) {
+    .advertis-container::before {
+      background-image: url(/img/adv-dex@2x.png);
+    }
+  }
+
+  .advertis-text {
+    width: 690px;
+    margin-bottom: 0;
+  }
+
+  .advertis-anchor {
+    margin-left: auto;
+  }
+}
