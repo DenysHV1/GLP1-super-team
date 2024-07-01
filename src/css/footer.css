@@ -42,6 +42,12 @@
   letter-spacing: -0.02em;
   color: #fbfbfb;
 }
+.footer-logo:hover,
+.footer-logo:focus {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
 .social-nav-item {
   display: flex;
   align-items: center;
@@ -75,6 +81,7 @@
 .social-nav-item:focus .social-nav-icon {
   fill: #fbfbfb;
   opacity: 1;
+  transform: scale(1.1);
 }
 .footer-phone-number {
   margin-bottom: 40px;
@@ -103,6 +110,7 @@
 .footer_number:focus {
   color: #fbfbfb;
   opacity: 0.8;
+  transform: scale(1.1);
 }
 .footer-main_text {
   font-weight: 600;
@@ -148,6 +156,7 @@
 .footer-nav-link:focus {
   color: #fbfbfb;
   opacity: 0.8;
+  transform: scale(1.1);
 }
 
 .footer-middle_text {
@@ -184,6 +193,7 @@
 .footer-bottom-link:hover,
 .footer-bottom-link:focus {
   color: rgba(251, 251, 251, 1);
+  transform: scale(1.1);
 }
 @media screen and (min-width: 768px) {
   .footer {
