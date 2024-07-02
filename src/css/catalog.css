@@ -89,6 +89,7 @@
 
   .catalog-list {
     gap: 32px 16px;
+    margin-bottom: 0;
   }
 
   .catalog-item {
@@ -110,7 +111,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .contact {
+  .catalog {
     padding-top: 100px;
   }
 
