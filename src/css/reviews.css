@@ -1,5 +1,5 @@
 .reviews {
-  margin-top: 60px;
+  padding-top: 60px;
 }
 
 .reviews-title {
@@ -55,7 +55,7 @@
 
 @media screen and (min-width: 768px) {
   .reviews {
-    margin-top: 80px;
+    padding-top: 80px;
   }
 
   .reviews-title {
@@ -84,7 +84,7 @@
 
 @media screen and (min-width: 1280px) {
   .reviews {
-    margin-top: 100px;
+    padding-top: 100px;
   }
   .reviews-ul {
     gap: 20px;

@@ -1,5 +1,5 @@
 .contact {
-  margin-top: 60px;
+  padding-top: 60px;
 }
 
 .contact-title {
@@ -109,7 +109,7 @@
 
 @media screen and (min-width: 768px) {
   .contact {
-    margin-top: 80px;
+    padding-top: 80px;
   }
 
   .contact-title {
@@ -172,7 +172,7 @@
 
 @media screen and (min-width: 1280px) {
   .contact {
-    margin-top: 100px;
+    padding-top: 100px;
   }
 
   .contact-wrapper {

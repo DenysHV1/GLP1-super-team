@@ -1,5 +1,5 @@
 .sale-section {
-  margin-top: 60px;
+  padding-top: 60px;
 }
 .sale-title {
   font-weight: 600;
@@ -115,6 +115,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .sale-section {
+    padding-top: 80px;
+  }
   .watch-picture {
     flex-direction: column;
     gap: 40px;
@@ -162,8 +165,16 @@
     font-size: 14px;
     line-height: 129%;
   }
+  .sale-title {
+    font-size: 48px;
+    line-height: 92%;
+  }
 }
+
 @media screen and (min-width: 1280px) {
+  .sale-section {
+    padding-top: 100px;
+  }
   .watch-picture {
     flex-direction: row;
   }

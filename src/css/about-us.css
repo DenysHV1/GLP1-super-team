@@ -1,6 +1,6 @@
 .about-us {
   width: 100%;
-  margin-top: 60px;
+  padding-top: 60px;
 }
 
 .about-inner {
@@ -59,7 +59,7 @@
 
 @media screen and (min-width: 768px) {
   .about-us {
-    margin-top: 80px;
+    padding-top: 80px;
   }
 
   .about-inner {
@@ -90,7 +90,7 @@
 
 @media screen and (min-width: 1280px) {
   .about-us {
-    margin-top: 100px;
+    padding-top: 100px;
   }
 
   .about-inner {

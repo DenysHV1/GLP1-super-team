@@ -1,5 +1,5 @@
 .advertis {
-  margin-top: 60px;
+  padding-top: 60px;
 }
 
 .advertis-container {
@@ -76,7 +76,7 @@
 
 @media screen and (min-width: 768px) {
   .advertis {
-    margin-top: 80px;
+    padding-top: 80px;
   }
 
   .advertis-container {
@@ -103,7 +103,7 @@
 
 @media screen and (min-width: 1280px) {
   .advertis {
-    margin-top: 100px;
+    padding-top: 100px;
   }
 
   .advertis-container {

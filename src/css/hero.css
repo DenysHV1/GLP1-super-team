@@ -1,6 +1,6 @@
 .hero {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -81,8 +81,8 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
   .hero-content-wi {
     gap: 11px;
@@ -127,8 +127,8 @@
 
 @media screen and (min-width: 1280px) {
   .hero {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   .hero-content-wi {
     gap: 407px;

@@ -1,5 +1,5 @@
 .catalog {
-  margin-top: 60px;
+  padding-top: 60px;
 }
 
 .catalog-title {
@@ -80,7 +80,7 @@
 
 @media screen and (min-width: 768px) {
   .catalog {
-    margin-top: 80px;
+    padding-top: 80px;
   }
 
   .catalog-title {
@@ -111,7 +111,7 @@
 
 @media screen and (min-width: 1280px) {
   .contact {
-    margin-top: 100px;
+    padding-top: 100px;
   }
 
   .catalog-list {
